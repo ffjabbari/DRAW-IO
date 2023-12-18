@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T02:43:35.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="aD2O5hNA5wkPjKB_VbRm" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T02:47:12.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UU1O6HoFf7BhqSJwGRG9" version="22.1.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1101" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="190" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BlFdo9V4X-cjhg5_DA4_-7">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BlFdo9V4X-cjhg5_DA4_-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="330" as="sourcePoint" />
             <mxPoint x="70" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-10" value="EC2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-10" value="EC2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-11" value="IAM Role" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-11" value="IAM Role" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="240" y="80" width="100" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-12" value="VPC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-12" value="VPC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="380" y="80" width="100" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-13" value="SUBNETS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-13" value="SUBNETS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="80" width="100" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-10">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="150" y="180" as="sourcePoint" />
             <mxPoint x="220" y="240" as="targetPoint" />
@@ -35,10 +35,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-16" value="Install AWS CLI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-16" value="Install AWS CLI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="150" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-11">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-11" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="150" y="245" as="sourcePoint" />
             <mxPoint x="149.66666666666652" y="275" as="targetPoint" />
@@ -47,10 +47,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-18" value="Create IAM Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-18" value="Create IAM Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="215" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="290" y="270" as="sourcePoint" />
             <mxPoint x="290" y="300" as="targetPoint" />
@@ -60,10 +60,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-24" value="Assign Policies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-24" value="Assign Policies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="285" y="245" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="430" y="300" as="sourcePoint" />
             <mxPoint x="430" y="330" as="targetPoint" />
@@ -73,10 +73,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-28" value="Provision a VPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-28" value="Provision a VPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="415" y="270" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-13">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BlFdo9V4X-cjhg5_DA4_-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="575" y="350" as="sourcePoint" />
             <mxPoint x="575" y="380" as="targetPoint" />
@@ -86,10 +86,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-30" value="Create Divide VPC&amp;nbsp;&lt;br&gt;Into 3 subnets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-30" value="Create Divide VPC&amp;nbsp;&lt;br&gt;Into 3 subnets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="315" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-31" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BlFdo9V4X-cjhg5_DA4_-13" target="BlFdo9V4X-cjhg5_DA4_-13">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-31" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BlFdo9V4X-cjhg5_DA4_-13" target="BlFdo9V4X-cjhg5_DA4_-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="580" y="450" as="sourcePoint" />
             <mxPoint x="580" y="480" as="targetPoint" />
@@ -99,23 +99,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-32" value="Divide IPCs into&lt;br&gt;Different IP ranges" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-32" value="Divide IPCs into&lt;br&gt;Different IP ranges" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="565" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BlFdo9V4X-cjhg5_DA4_-13" target="BlFdo9V4X-cjhg5_DA4_-13">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="590" y="550" as="sourcePoint" />
-            <mxPoint x="590" y="580" as="targetPoint" />
+            <mxPoint x="569.75" y="565" as="sourcePoint" />
+            <mxPoint x="569.75" y="595" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="550" />
-              <mxPoint x="660" y="580" />
+              <mxPoint x="660.25" y="565" />
+              <mxPoint x="660.25" y="595" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-35" value="Create EKS Cluster&lt;br&gt;In on of the Subnets" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="565" y="515" width="130" height="40" as="geometry" />
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-35" value="Create EKS Cluster&lt;br&gt;In one of the Subnets&#39;&lt;br&gt;EC2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="505" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BlFdo9V4X-cjhg5_DA4_-36" value="Option 1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="BlFdo9V4X-cjhg5_DA4_-36" value="Option 1" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry width="120" height="80" as="geometry" />
         </mxCell>
       </root>
