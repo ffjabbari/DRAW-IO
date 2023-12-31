@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T03:33:31.938Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tm9U4YO7UdtqYhSTqJIa" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T03:38:51.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ExRQqyaWSk1HmiV90z56" version="22.1.16" type="github">
   <diagram name="Page-1" id="V8DQ-JovP7qMxEnwiQmx">
     <mxGraphModel dx="1175" dy="719" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="Gfw8TnIOtNCkakIk6DXx-27" value="&lt;font color=&quot;#ff3333&quot;&gt;ADD A NEW USER TO &lt;br&gt;THE GROUP&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="1">
           <mxGeometry x="308" y="817" width="141" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Gfw8TnIOtNCkakIk6DXx-28" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="293" y="1031" width="40" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
